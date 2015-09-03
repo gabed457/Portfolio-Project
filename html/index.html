@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../css/style.css" rel="stylesheet"/>
+    <!-- <link href="../JS/button1.js"/> -->
+</head>
+<body>
+<header>
+
+    <h1>
+        <center>Welcome to my portfolio!</center>
+    </h1>
+</header>
+
+<div id="img1">
+    <center>
+        <img src="http://www.muchsocial.com/wp-content/uploads/2015/04/Not-making-website-mobile-friendly.jpg"
+             style="max-width: 900px; max-height: 900px;"/>
+    </center>
+</div>
+<nav>
+    <a href="http://localhost:63342/Portfolio-Project/html/index.html">Home</a>
+    <a href="http://localhost:63342/Portfolio-Project/html/aboutMe.html">About Me</a>
+    <a href="http://arizonaflatheadfishing.com/testhome.html">My Past Work</a>
+    <a href="#">Contact Me</a>
+</nav>
+<div id="sidecontent">
+    <h2>
+        <center>
+            Lets build your website together!
+        </center>
+    </h2>
+    <center>
+
+        <img src="http://www.sacredheartpinehurst.org/media/1/under_construction-animated.gif"/>
+
+    </center>
+</div>
+<div id="img2"><img src="../images/hello-world.jpeg" style="width: 1377px; position:absolute; top: 1050px;"/></div>
+<div id="visible">
+    <input type="button" class="button1" value="Get Started" onclick="swapform();"
+           style="position:absolute;left: 1000px; top:1500px;">
+</div>
+
+<form  method="post" id="theform" class="hideElement"">
+<div>
+
+    <div class="actualText">Name:</div>
+    <input type="text" name="textName" class="textField"><br><br>
+    <div class="actualText">Email:</div>
+    <input type="text" name="textEmail" class="textField"><br><br>
+    <div class="actualText">Phone:</div>
+    <input type="text" name="textPhone" class="textField"><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset" style="float:right;">
+</div>
+
+</form>
+<script>
+    function swapform() {
+        var form = document.getElementById("theform");
+        form.className = "showElement";
+        console.log(form);
+    }
+</script>
+<script type="text/javascript" async="async" defer="defer" data-cfasync="false"
+        src="https://mylivechat.com/chatinline.aspx?hccid=36017994"></script>
+<script type="text/javascript" async="async" defer="defer" data-cfasync="false"
+        src="https://mylivechat.com/chatwidget.aspx?hccid=36017994"></script>
+</body>
+
+</html>

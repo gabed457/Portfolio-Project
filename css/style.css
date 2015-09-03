@@ -1,0 +1,117 @@
+h1
+{
+    background-color: #DCECFD;
+}
+header
+{
+    width:1024;
+    height:100;
+    border:solid;
+    border-width:2;
+    background-color: #DCECFD;
+    border-bottom-color: #DCECFD;
+    border-top-color: #DCECFD;
+    top:1%;
+
+}
+h2
+{
+    font-size: 55px;
+    color:#B0D8CB;
+}
+#img1
+{
+    top:165px;
+    position:absolute;
+}
+.aboutMe
+{
+    color: bisque;
+    width:150px;
+
+}
+
+nav
+{
+    background: url("https://upload.wikimedia.org/wikipedia/en/4/47/Misc_clouds_santa_clarita.JPG")no-repeat;
+    padding: 1em 0;
+}
+nav a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 1em;
+    text-shadow: 2px 2px 1px rgba (0,0,0,0.7);
+    transition: background 1s;
+}
+nav a:hover
+{
+    background: rgba(0,0,0,0.7);
+}
+
+#sidecontent
+{
+
+    float:right;
+    width:350px;
+    top:145px;
+    background-image: url("../images/grey.bg.jpeg");
+    height: 900px;
+}
+p
+{
+    color:#7FFFD4;
+    font-size: 18px;
+}
+.button1:hover{
+    float:left;
+    border-radius: 350px;
+    background-color:#FF7C28;
+    border: 3px white solid;
+    padding: 10px 10px;
+    width:150px;
+    height:90px;
+    color:black;
+
+}
+.button1{
+    float:right;
+    border-radius: 15px;
+    background-color:transparent;
+    border: 3px black solid;
+    padding: 10px 10px;
+    z-index:9;
+    width:150px;
+    height:90px;
+    color:white;
+}
+#theform
+{
+    z-index: 999;
+    position:absolute;
+    top:1600px;
+    right:176px;
+    color:white;
+
+}
+.textField
+{
+    padding: 5px 5px;
+}
+
+.showElement {
+    visibility: visible;
+}
+
+.hideElement {
+    visibility: hidden;
+}
+.textField
+{
+    width: 135px;
+    align:right;
+}
+.actualText
+{
+    align:left;
+}

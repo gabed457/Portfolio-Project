@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms forms forms forms</title>
+    <link href="inputsReceived.html"/>
+</head>
+<body bgcolor="#7fffd4">
+<h1 style="color:blue;"><center>Do you want to catch fish with the state record holder?</center></h1>
+<script type="text/javascript">
+    function confirmEmail() {
+        var email = document.getElementById("email").value
+        var confemail = document.getElementById("confemail").value
+        if(email != confemail) {
+            alert('Email Not Matching!');
+        }
+    }
+</script>
+<script type="text/javascript">
+    function confirmPhone() {
+        var email = document.getElementById("phone").value
+        var confemail = document.getElementById("confphone").value
+        if(email != confemail) {
+            alert('Phone Not Matching!');
+        }
+    }
+</script>
+<center>
+<form name="textInputs" method="GET" action="inputsReceived.html" style="width: 150px;">
+    Name:<br><input type="text" placeholder="type in full name" required="1"/><br>
+    Email:<input name="email" type="text" required="1" id="email" placeholder="type in email"/>
+    Confirm Email:<input name="emailConfirm" type="text" id="confemail" onblur="confirmEmail()" placeholder="confirm email"/>
+    Phone:<br><input type="tel" placeholder="type in 10 digit #" id="phone" minlength="10" maxlength="10" required="1"/><br>
+    Confirm Phone:<br><input type="tel" placeholder="type in same number" id="confphone" onblur="confirmPhone()"/><br>
+    Pick 3 dates you're available: (weekends only)<br>
+    <input type="date" value="date1"/>
+    <input type="date" value="date2"/>
+    <input type="date" value="date3"/>
+    <input type="submit" style="float:left;"/>
+    <input type="reset" style="float:right;"/>
+</form>
+</center>
+</body>
+</html>
